@@ -5,3 +5,15 @@ print(tpl[10][2]) # third element of array
 
 oneTuple = (1,)
 print(type(oneTuple))
+
+# tpl[0] = "hello"
+
+
+print("Total count of element 1 is: ", tpl.count(1))
+print("Is 1 present in tuple: ", 1 in tpl)
+
+
+print()
+print()
+for i in tpl:
+    print(i, end=' | ')
