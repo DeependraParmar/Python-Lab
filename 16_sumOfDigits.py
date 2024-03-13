@@ -2,10 +2,12 @@ def provideDigits(num):
     result = []
     while(num != 0):
         rem = num%10
-        result.append(rem)
+        result.append(int(rem))
         num = num / 10
     
     return result
+
+# ____________________________________________________________
 
 lst = eval(input("Enter the list here: "))
 result = []
